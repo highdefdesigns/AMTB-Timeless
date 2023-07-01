@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2023061059 Aston Martin Tampa Bay Timeless</title>
+  </head>
+
+  <style>
+    #content-description h1 {
+      font-size: 0px;
+    }
+    :root {
+      --hdd-color-primary: #00665e;
+      --hdd-color-secondary: #f2f2f2;
+      --hdd-margin-lg: 3.125rem;
+    }
+    .hdd-container * {
+      box-sizing: border-box;
+    }
+    .hdd-container img {
+      width: 100%;
+      display: block;
+    }
+    .hdd-container {
+      line-height: 1.8;
+    }
+
+    /* BTNS */
+    .hero-body button,
+    .section-para button {
+      color: #ffffff;
+      background-color: transparent;
+      padding: 0;
+      border: none;
+    }
+    .section-para button,
+    .section-para a {
+      display: block;
+      width: 100%;
+    }
+    .hero-body button a,
+    .section-para button a {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: var(--hdd-color-primary);
+      padding: 1rem 2.3rem;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;
+    }
+    .section-para button:first-of-type {
+      margin-bottom: 1rem;
+    }
+    .hero-body button:first-of-type {
+      margin-right: 2rem;
+    }
+    .hero-body button a:hover,
+    .section-para button a:hover,
+    .hero-body button a:focus,
+    .section-para button a:focus {
+      background-color: #014e48;
+      color: #ffffff;
+    }
+    .hero-body {
+      text-align: center;
+    }
+    .hero-body p {
+      margin: var(--hdd-margin-lg) auto;
+      padding: 2rem;
+    }
+    /* h2 */
+    .hdd-container .hdd-h2 {
+      text-align: center;
+      position: relative;
+      margin: 5rem auto var(--hdd-margin-lg);
+      font-size: 42px;
+    }
+    .hdd-h2::before,
+    .hdd-h2::after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 30%;
+      background-color: #000000;
+      top: 50%;
+      transform: translatey(-50%);
+    }
+    .hdd-h2::before {
+      left: 3%;
+    }
+    .hdd-h2::after {
+      right: 3%;
+    }
+
+    /* SECTIONS */
+    .section-lg-container:nth-of-type(1) .section-img {
+      position: relative;
+      display: flex;
+    }
+    .section-lg-container:nth-of-type(1) .section-img p {
+      position: absolute;
+      color: #ffffff;
+      bottom: 50%;
+      left: 3%;
+      width: 35%;
+      text-align: center;
+      font-size: 16px;
+    }
+    .hdd-bold {
+      font-weight: bold;
+    }
+    .section-para-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .section-para {
+      padding: 3rem 5rem;
+    }
+    .banner-para-container {
+      background-color: var(--hdd-color-secondary);
+      border-top: 1px solid var(--hdd-color-primary);
+      border-bottom: 1px solid var(--hdd-color-primary);
+      padding: 0 3rem;
+      margin: var(--hdd-margin-lg) auto;
+    }
+    .banner-para-container:last-of-type {
+      margin: 0 auto var(--hdd-margin-lg);
+    }
+    @media (max-width: 991px) {
+      .hdd-container {
+        line-height: 1.5;
+      }
+      .hdd-h2::before,
+      .hdd-h2::after {
+        width: 20%;
+      }
+      .hdd-h2::before {
+        left: 0;
+      }
+      .hdd-h2::after {
+        right: 0;
+      }
+      .hdd-h3 {
+        font-size: 19px;
+      }
+      .section-lg-container:nth-of-type(1) .section-img p {
+        bottom: 31%;
+      }
+      .section-para {
+        padding: 2rem 2rem;
+      }
+    }
+    @media (max-width: 580px) {
+      .hero-body button,
+      .hero-body button a {
+        display: block;
+        width: 100%;
+      }
+      .hero-body button a,
+      .section-para button a {
+        font-size: 14px;
+      }
+      .hero-body button:first-of-type {
+        margin-bottom: 1rem;
+      }
+      .hero-body p {
+        margin: 0;
+      }
+      .hdd-container .hdd-h2 {
+        font-size: 35px;
+        margin: var(--hdd-margin-lg) auto;
+      }
+      .hdd-h2::before,
+      .hdd-h2::after {
+        width: 0;
+      }
+
+      .hdd-h3 {
+        margin: 0.5rem 0;
+        line-height: 1.3;
+      }
+      .section-lg-container:nth-of-type(1) .section-img::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        top: 0;
+        left: 0;
+      }
+      .section-lg-container:nth-of-type(1) .section-img p {
+        bottom: 5%;
+        width: 90%;
+        text-align: center;
+      }
+      .section-para-container {
+        grid-template-columns: 1fr;
+      }
+      .section-lg-container:nth-of-type(1) .section-para:first-of-type {
+        padding: 2rem 2rem 0rem;
+      }
+      .section-lg-container:nth-of-type(3) .section-para:last-of-type {
+        padding: 2rem 2rem 0rem;
+      }
+      .banner-para-container {
+        padding: 2rem 3rem;
+      }
+      .hdd-order {
+        order: 1;
+      }
+    }
+  </style>
+  <body>
+    <div class="hdd-container">
+      <!-- HERO -->
+      <div class="hdd-hero-container">
+        <img
+          src="#MISCPATH#2023061059_timeless/2023061059_AMTB_Timeless_Cert_PreOwned_Hero_Desk_web.jpg"
+          alt="Front facing parked Aston Martin Timeless Certified Pre-Owned vehicle parked outside of home"
+        />
+        <div class="hero-body">
+          <p>
+            When you purchase a Timeless Aston Martin, you can rest assured that
+            your Aston Martin has been thoughtfully curated to the highest
+            showroom standards by skilled Aston Martin technicians. Available on
+            vehicles up to 10 years old, Timeless Certified-Preowned vehicles
+            come with a variety of special benefits.
+          </p>
+
+          <button>
+            <a href="" class="hdd-btn">VIEW TIMELESS INVENTORY</a>
+          </button>
+          <button>
+            <a href="" class="hdd-btn">CONTACT A SPECIALIST</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- TITLE -->
+      <h2 class="hdd-h2">ARRIVE IN STYLE</h2>
+
+      <!-- SECTION -->
+      <section class="section-lg-container">
+        <div class="section-img">
+          <img
+            src="#MISCPATH#2023061059_timeless/2023061059_AMTB_Timeless_Cert_PreOwned_Discount_Desk_web.jpg"
+            alt="Front facing parked vehicle protected under shelter"
+          />
+          <p>
+            Timeless owners receive a
+            <span class="hdd-bold">15% discount*</span> on eligible Aston Martin
+            Accessories for three months following the purchase date of your
+            Aston Martin.
+          </p>
+        </div>
+        <div class="section-para-container">
+          <div class="section-para">
+            <h3 class="hdd-h3">12 MONTHS EXTENDED WARRANTY</h3>
+            <p>
+              Every Timeless purchase includes a minimum of 12 months unlimited
+              mileage warranty**. Available exclusively from Aston Martin Tampa
+              Bay, you can be confident in the knowledge that your Aston Martin
+              will be repaired at an official Aston Martin service center by
+              factory trained technicians and using genuine Aston Martin parts.
+              This coverage can be easier renewed when existing coverage
+              concludes and is transferable, enhancing the resale value of your
+              Aston Martin.
+            </p>
+          </div>
+          <div class="section-para">
+            <h3 class="hdd-h3">12 MONTHS ROADSIDE ASSISTANCE</h3>
+            <p>
+              As part of your purchase process, you will receive the details for
+              Aston Martin roadside assistance should you ever require their
+              support within the first 12 months of ownership.
+            </p>
+            <button>
+              <a href="" class="hdd-btn">VIEW TIMELESS INVENTORY</a>
+            </button>
+            <button>
+              <a href="" class="hdd-btn">CONTACT A SPECIALIST</a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <img
+        src="#MISCPATH#2023061059_timeless/2023061059_AMTB_Timeless_Cert_PreOwned_BannerOne_Desk_web.jpg"
+        alt="Vehicle parked outside side view country setting"
+      />
+
+      <!-- BANNER PARA -->
+      <section class="banner-para-container">
+        <h3 class="hdd-h3">CERTIFIED HISTORY AND MILEAGE</h3>
+        <p>
+          All vehicles come with an independently certified history and verified
+          mileage (subject to the availability of data). You’ll drive away with
+          the knowledge that your new Timeless vehicle has a complete history
+          and delivers what you expected.
+        </p>
+      </section>
+
+      <!-- SECTION -->
+      <section class="section-lg-container">
+        <div class="section-img">
+          <img
+            src="#MISCPATH#2023061059_timeless/2023061059_AMTB_Timeless_Cert_PreOwned_BannerTwo_Desk_web.jpg"
+            alt="Luxury sports vehicle driving on road"
+          />
+        </div>
+        <div class="section-para-container">
+          <div class="section-para hdd-order">
+            <h3 class="hdd-h3">QUALITY ASSURED ​ASTON MARTIN GENUINE PARTS</h3>
+            <p>
+              At Aston Martin Tampa Bay, we guarantee to use only genuine parts
+              backed by a 12-month warranty. Nothing less is acceptable to our
+              high standards, and every single component of your car has been
+              designed, tested and fine-tuned to deliver the optimum Aston
+              Martin driving experience.
+            </p>
+            <button>
+              <a href="" class="hdd-btn">VIEW TIMELESS INVENTORY</a>
+            </button>
+            <button>
+              <a href="" class="hdd-btn">CONTACT A SPECIALIST</a>
+            </button>
+          </div>
+          <div class="section-para">
+            <h3 class="hdd-h3">
+              MULTI-POINT PRE-DELIVERY HARDWARE &amp; SOFTWARE CHECK
+            </h3>
+            <p>
+              Factory trained technicians complete the Multi-Point Timeless
+              Inspection on all approved pre-owned Aston Martin’s. This detailed
+              examination of all components ensures that your vehicle meets our
+              exacting requirements, consistent with the age and mileage of the
+              vehicle. Multi-point inspection items include the vehicle
+              exterior, interior, major mechanical components, safety and
+              security checks, wheels and tires, vehicle history, engine,
+              transmission, suspension, steering components and a thorough test
+              drive to ensure that your Aston Martin meets all of the Timeless
+              quality standards.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- BANNER PARA -->
+      <section class="banner-para-container">
+        <h3 class="hdd-h3">AM MAGAZINE SUBSCRIPTION</h3>
+        <p>
+          Timeless owners enjoy a complimentary 12-month subscription to AM
+          Magazine which includes three issues. Your AM subscription allows you
+          to uncover the extraordinary lifestyle that comes with owning an Aston
+          Martin and highlights the latest news on new models, and people,
+          places and brands that share a synergy with Aston Martin’s values.
+        </p>
+      </section>
+
+      <div class="hdd-sm-print">
+        <small
+          >*Contact your dealer for more details or view the full collection
+          online. Limited period applies, rates may vary, selected Aston Martin
+          Accessories only. **It is not possible to cover every eventuality, and
+          as such, the following areas are not covered: paint work, body work
+          and soft trim, routine service Items like tires, brake pads and brake
+          discs, and parts requiring repair or replacement due to normal wear
+          and tear. This list is for guidance only. For full details of
+          coverage, please read the full terms and conditions or for more
+          information speak to your Official Aston Martin dealership.
+        </small>
+      </div>
+    </div>
+  </body>
+</html>

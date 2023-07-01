@@ -1,0 +1,16 @@
+{
+  "name": "2023061059-amtb-timeless",
+  "version": "1.0.0",
+  "description": "Timeless Certified Pre‑Owned Aston Martin Tampa Bay webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index"
+  },
+  "keywords": [
+    "timeless",
+    "certified",
+    "pre-owned"
+  ],
+  "author": "Justin Edwards",
+  "license": "MIT"
+}
